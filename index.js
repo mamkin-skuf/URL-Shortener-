@@ -4,9 +4,6 @@ const shortid = require('shortid');
 const validUrl = require('valid-url');
 const dotenv = require('dotenv');
 
-
-
-
 dotenv.config();
 const app = express();
 const port = process.env.PORT || 3000;
